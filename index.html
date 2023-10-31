@@ -9,6 +9,16 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
+<script>
+    window.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+    });
+    
+    document.addEventListener('dragstart', function (e) {
+        e.preventDefault();
+    });
+</script>
+    
     <div class="slidebar">
         <div class="header">
             <div class="avatar">
